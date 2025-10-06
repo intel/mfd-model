@@ -28,5 +28,5 @@ exclude = ["examples", "tests*", "sphinx-doc"]
 
 [project.optional-dependencies]
 artifacts_manager = ["pydantic >= 2.0, < 3", "mfd-const >= 0.23.0"]
-config = ["pydantic >= 2.0, < 3", "mfd-typing >= 1.23.0"]
+config = ["pydantic >= 2.0, < 3", "mfd-typing >= 1.23.0", "packaging"]
 nvm = ["pydantic >= 2.0, < 3"]

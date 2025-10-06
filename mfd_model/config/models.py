@@ -163,6 +163,7 @@ class NetworkInterfaceModelBase(InstantiateBaseModel, extra="forbid"):
         description="Name of the switch port to which the interface is connected on the switch (switch_name).",
     )
     vlan: str | None = Field(None, description="VLAN configured on Switch port")
+    mac_address: str | None = Field(None, description="MAC address of the interface in format XX:XX:XX:XX:XX:XX")
 
 
 class SUTModelBase(MachineModel):
