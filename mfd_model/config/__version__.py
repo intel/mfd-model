@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: MIT
 """Version."""
 
-VERSION = "2.5"
+VERSION = "2.6"
