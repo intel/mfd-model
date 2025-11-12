@@ -1,6 +1,12 @@
 # CHANGELOG
 
 <!-- version list -->
+## v0.10.0 (2025-11-12)
+
+### Features
+
+- add mac_address field to NetworkInterfaceModelBase by @adrianlasota
+  ([`aabd622`](https://github.com/intel/mfd-model/commit/aabd622179516dc6648262aaba610727aae517ca))
 
 ## v0.9.0 (2025-07-10)
 
