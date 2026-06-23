@@ -1,5 +1,5 @@
 -r requirements.txt  # Ensure tests dependencies are automatically included
 
 pytest >= 9.0.3, < 10
-coverage ~= 7.3.0
+coverage ~= 7.14.3
 pytest-mock ~= 3.14
